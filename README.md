@@ -6,6 +6,8 @@ BLAS Level 2 TRSV (triangular solve) for complex [ndarrays](https://github.com/s
 
 ## Usage
 
+*Note*: This module assumes the triangular matrices are stored in a dense, square matrix. Packed triangular arrays are on the todo list.
+
 ##### `trsv( A_r, A_i, x_r, x_i [, uplo] )`
 Calculate `x <- A^-1 x` for the real and complex parts `A_r` and `A_i` of the upper triangular matrix A using back-substitution. Data below the diagonal is ignored.  If `uplo` is 'lo', uses the lower triangular portion of A and performs forward-substitution instead. Result overwrites the x vectors.
 
