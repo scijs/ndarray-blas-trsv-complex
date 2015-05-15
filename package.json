@@ -1,6 +1,6 @@
 {
   "name": "ndarray-blas-trsv-complex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BLAS Level 2 TRSV (triangular solve) for complex ndarrays",
   "main": "index.js",
   "author": "Ricky Reusser",
